@@ -1,0 +1,9 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\bin\Debug\Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\bin\Debug\Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\obj\Debug\Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\obj\Debug\Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\bin\Debug\Dapper.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Models\bin\Debug\Dapper.xml

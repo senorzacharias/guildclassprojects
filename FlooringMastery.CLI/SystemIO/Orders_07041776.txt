@@ -1,0 +1,3 @@
+OrderNumber, Name, State, TaxRate, ProductType, Area, CostPerSqFt, MaterialCost, LaborCostPerSqFt, LaborCost, Tax, Total
+1,Alexander Hamilton,MA,0.034,Wood,1776,5.15,9146.40,4.75,8436.00,597.80160,18180.20160
+2,George Washington,VA,0.034,Carpet,1812,2.25,4077.00,2.10,3805.20,267.99480,8150.19480

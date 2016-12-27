@@ -1,0 +1,13 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.CLI.exe.config
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.CLI.exe
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.CLI.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.Exercises.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.Data.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.Exercises.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Linq.Data.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\obj\Debug\Linq.CLI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\obj\Debug\Linq.CLI.exe
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\obj\Debug\Linq.CLI.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.CLI\bin\Debug\Customers.xml

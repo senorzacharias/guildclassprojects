@@ -1,0 +1,93 @@
+Beverages
+Chai
+Chang
+Guaraná Fantástica
+Sasquatch Ale
+Steeleye Stout
+Côte de Blaye
+Chartreuse verte
+Ipoh Coffee
+Laughing Lumberjack Lager
+Outback Lager
+Rhönbräu Klosterbier
+Lakkalikööri
+
+Condiments
+Aniseed Syrup
+Chef Anton's Cajun Seasoning
+Chef Anton's Gumbo Mix
+Grandma's Boysenberry Spread
+Northwoods Cranberry Sauce
+Genen Shouyu
+Gula Malacca
+Sirop d'érable
+Vegie-spread
+Louisiana Fiery Hot Pepper Sauce
+Louisiana Hot Spiced Okra
+Original Frankfurter grüne Soße
+
+Produce
+Uncle Bob's Organic Dried Pears
+Tofu
+Rössle Sauerkraut
+Manjimup Dried Apples
+Longlife Tofu
+
+Meat/Poultry
+Mishi Kobe Niku
+Alice Mutton
+Thüringer Rostbratwurst
+Perth Pasties
+Tourtière
+Pâté chinois
+
+Seafood
+Ikura
+Konbu
+Carnarvon Tigers
+Nord-Ost Matjeshering
+Inlagd Sill
+Gravad lax
+Boston Crab Meat
+Jack's New England Clam Chowder
+Rogede sild
+Spegesild
+Escargots de Bourgogne
+Röd Kaviar
+
+Dairy Products
+Queso Cabrales
+Queso Manchego La Pastora
+Gorgonzola Telino
+Mascarpone Fabioli
+Geitost
+Raclette Courdavault
+Camembert Pierrot
+Gudbrandsdalsost
+Flotemysost
+Mozzarella di Giovanni
+
+Confections
+Pavlova
+Teatime Chocolate Biscuits
+Sir Rodney's Marmalade
+Sir Rodney's Scones
+NuNuCa Nuß-Nougat-Creme
+Gumbär Gummibärchen
+Schoggi Schokolade
+Zaanse koeken
+Chocolade
+Maxilaku
+Valkoinen suklaa
+Tarte au sucre
+Scottish Longbreads
+
+Grains/Cereals
+Gustaf's Knäckebröd
+Tunnbröd
+Singaporean Hokkien Fried Mee
+Filo Mix
+Gnocchi di nonna Alice
+Ravioli Angelo
+Wimmers gute Semmelknödel
+

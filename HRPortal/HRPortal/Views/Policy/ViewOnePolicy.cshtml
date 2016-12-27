@@ -1,0 +1,33 @@
+﻿@model Models.PolicyVM
+@{
+    ViewBag.Title = "ViewOnePolicy";
+}
+
+
+@*bundleconfig/script section in each page/ fix header/complete controller actions*@
+<div class="container">
+<div class="row">
+    <div class="col-xs-12">
+        @Html.ActionLink("Return to List", "ViewPolicies", "Policy")
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="col-xs-12">
+        <h3>Policy</h3>
+    </div>
+</div>
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Content</th>
+            </tr>
+            <tr>
+                <td>@Model.Policy.PolicyName</td>
+                <td>@Model.Policy.PolicyContent</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

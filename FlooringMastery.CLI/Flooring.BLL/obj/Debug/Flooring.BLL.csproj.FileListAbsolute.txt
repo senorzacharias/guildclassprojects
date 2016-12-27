@@ -1,0 +1,9 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\bin\Debug\Flooring.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\bin\Debug\Flooring.BLL.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\bin\Debug\Flooring.Data.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\bin\Debug\Flooring.Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\bin\Debug\Flooring.Data.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\bin\Debug\Flooring.Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\obj\Debug\Flooring.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\obj\Debug\Flooring.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL\obj\Debug\Flooring.BLL.pdb

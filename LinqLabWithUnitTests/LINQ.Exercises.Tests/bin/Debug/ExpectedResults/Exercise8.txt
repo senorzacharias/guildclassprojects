@@ -1,0 +1,78 @@
+ID    Product Name                        Category          Unit  Stock Stock Value
+1     Chai                                Beverages       $18.00     39 702.0000
+2     Chang                               Beverages       $19.00     17 323.0000
+3     Aniseed Syrup                       Condiments      $10.00     13 130.0000
+4     Chef Anton's Cajun Seasoning        Condiments      $22.00     53 1166.0000
+5     Chef Anton's Gumbo Mix              Condiments      $21.35      0 0.0000
+6     Grandma's Boysenberry Spread        Condiments      $25.00    120 3000.0000
+7     Uncle Bob's Organic Dried Pears     Produce         $30.00     15 450.0000
+8     Northwoods Cranberry Sauce          Condiments      $40.00      6 240.0000
+9     Mishi Kobe Niku                     Meat/Poultry    $97.00     29 2813.0000
+10    Ikura                               Seafood         $31.00     31 961.0000
+11    Queso Cabrales                      Dairy Products  $21.00     22 462.0000
+12    Queso Manchego La Pastora           Dairy Products  $38.00     86 3268.0000
+13    Konbu                               Seafood          $6.00     24 144.0000
+14    Tofu                                Produce         $23.25     35 813.7500
+15    Genen Shouyu                        Condiments      $15.50     39 604.5000
+16    Pavlova                             Confections     $17.45     29 506.0500
+17    Alice Mutton                        Meat/Poultry    $39.00      0 0.0000
+18    Carnarvon Tigers                    Seafood         $62.50     42 2625.0000
+19    Teatime Chocolate Biscuits          Confections      $9.20     25 230.0000
+20    Sir Rodney's Marmalade              Confections     $81.00     40 3240.0000
+21    Sir Rodney's Scones                 Confections     $10.00      3 30.0000
+22    Gustaf's Knäckebröd                 Grains/Cereals  $21.00    104 2184.0000
+23    Tunnbröd                            Grains/Cereals   $9.00     61 549.0000
+24    Guaraná Fantástica                  Beverages        $4.50     20 90.0000
+25    NuNuCa Nuß-Nougat-Creme             Confections     $14.00     76 1064.0000
+26    Gumbär Gummibärchen                 Confections     $31.23     15 468.4500
+27    Schoggi Schokolade                  Confections     $43.90     49 2151.1000
+28    Rössle Sauerkraut                   Produce         $45.60     26 1185.6000
+29    Thüringer Rostbratwurst             Meat/Poultry    $123.79      0 0.0000
+30    Nord-Ost Matjeshering               Seafood         $25.89     10 258.9000
+31    Gorgonzola Telino                   Dairy Products  $12.50      0 0.0000
+32    Mascarpone Fabioli                  Dairy Products  $32.00      9 288.0000
+33    Geitost                             Dairy Products   $2.50    112 280.0000
+34    Sasquatch Ale                       Beverages       $14.00    111 1554.0000
+35    Steeleye Stout                      Beverages       $18.00     20 360.0000
+36    Inlagd Sill                         Seafood         $19.00    112 2128.0000
+37    Gravad lax                          Seafood         $26.00     11 286.0000
+38    Côte de Blaye                       Beverages       $263.50     17 4479.5000
+39    Chartreuse verte                    Beverages       $18.00     69 1242.0000
+40    Boston Crab Meat                    Seafood         $18.40    123 2263.2000
+41    Jack's New England Clam Chowder     Seafood          $9.65     85 820.2500
+42    Singaporean Hokkien Fried Mee       Grains/Cereals  $14.00     26 364.0000
+43    Ipoh Coffee                         Beverages       $46.00     17 782.0000
+44    Gula Malacca                        Condiments      $19.45     27 525.1500
+45    Rogede sild                         Seafood          $9.50      5 47.5000
+46    Spegesild                           Seafood         $12.00     95 1140.0000
+47    Zaanse koeken                       Confections      $9.50     36 342.0000
+48    Chocolade                           Confections     $12.75     15 191.2500
+49    Maxilaku                            Confections     $20.00     10 200.0000
+50    Valkoinen suklaa                    Confections     $16.25     65 1056.2500
+51    Manjimup Dried Apples               Produce         $53.00     20 1060.0000
+52    Filo Mix                            Grains/Cereals   $7.00     38 266.0000
+53    Perth Pasties                       Meat/Poultry    $32.80      0 0.0000
+54    Tourtière                           Meat/Poultry     $7.45     21 156.4500
+55    Pâté chinois                        Meat/Poultry    $24.00    115 2760.0000
+56    Gnocchi di nonna Alice              Grains/Cereals  $38.00     21 798.0000
+57    Ravioli Angelo                      Grains/Cereals  $19.50     36 702.0000
+58    Escargots de Bourgogne              Seafood         $13.25     62 821.5000
+59    Raclette Courdavault                Dairy Products  $55.00     79 4345.0000
+60    Camembert Pierrot                   Dairy Products  $34.00     19 646.0000
+61    Sirop d'érable                      Condiments      $28.50    113 3220.5000
+62    Tarte au sucre                      Confections     $49.30     17 838.1000
+63    Vegie-spread                        Condiments      $43.90     24 1053.6000
+64    Wimmers gute Semmelknödel           Grains/Cereals  $33.25     22 731.5000
+65    Louisiana Fiery Hot Pepper Sauce    Condiments      $21.05     76 1599.8000
+66    Louisiana Hot Spiced Okra           Condiments      $17.00      4 68.0000
+67    Laughing Lumberjack Lager           Beverages       $14.00     52 728.0000
+68    Scottish Longbreads                 Confections     $12.50      6 75.0000
+69    Gudbrandsdalsost                    Dairy Products  $36.00     26 936.0000
+70    Outback Lager                       Beverages       $15.00     15 225.0000
+71    Flotemysost                         Dairy Products  $21.50     26 559.0000
+72    Mozzarella di Giovanni              Dairy Products  $34.80     14 487.2000
+73    Röd Kaviar                          Seafood         $15.00    101 1515.0000
+74    Longlife Tofu                       Produce         $10.00      4 40.0000
+75    Rhönbräu Klosterbier                Beverages        $7.75    125 968.7500
+76    Lakkalikööri                        Beverages       $18.00     57 1026.0000
+77    Original Frankfurter grüne Soße     Condiments      $13.00     32 416.0000

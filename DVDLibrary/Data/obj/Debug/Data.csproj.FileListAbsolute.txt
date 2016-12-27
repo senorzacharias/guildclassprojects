@@ -1,0 +1,14 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Data.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Data.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\obj\Debug\Data.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\obj\Debug\Data.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Data.dll.config
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Dapper.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\EntityFramework.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\Dapper.xml
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\EntityFramework.xml
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\DVDLibrary\Data\bin\Debug\EntityFramework.SqlServer.xml

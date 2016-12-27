@@ -1,0 +1,79 @@
+﻿@using System.Web.UI.WebControls
+@model Models.PolicyVM
+@{
+    ViewBag.Title = "AddPolicy";
+}
+
+
+<div class="col-xs-12 col-sm-9">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Add Policy</h3>
+            <div class="row">
+                @Html.ValidationSummary(true)
+                @using (Html.BeginForm(new {id = "theForm"}))
+                {
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">Personal Details</h4>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <label class="control-label">Policy Name:</label>
+                                    @Html.TextBoxFor(m => m.Policy.PolicyName, new {@class = "form-control", PlaceHolder = "Eric Hebborn"})
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Policy.PolicyName)</p>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Policy Content:</label>
+                                    @Html.TextBoxFor(m => m.Policy.PolicyContent, new {@class = "form-control", PlaceHolder = "His first true forgeries were pencil drawings" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Policy.PolicyContent)</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Category</label>
+                                    @Html.DropDownListFor(m => m.Policy.CategoryId, Model.CategoryItems, new {@class = "form-control"})
+                                </div>
+                                <div class="form-group">
+                                    <label>New Category</label>
+                                    @Html.TextBoxFor(m => m.NewCategory, new {@class = "form-control", PlaceHolder = "Forgery"})
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.NewCategory)</p>
+                                </div>
+                                <button class="btn btn-primary">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@*@section form{
+    
+<script>
+        $("#theForm").validate({
+            rules: {
+                PolicyName: {
+                    required: true
+                },
+                PolicyContent: {
+                    required: true
+                },
+                NewCategory: {
+                    required: false
+                }
+            }
+        });
+</script>
+
+}*@
+@*$(‘span.field-validation-valid, span.field-validation-error’).each(function () //email=true for email validate
+{
+$(this).addClass(‘help-inline’);
+});*@
+
+
+
+
+        

@@ -1,0 +1,201 @@
+﻿@model DVDLibrary.Models.MovieVM
+
+<div class="modal fade" tabindex="-1" role="dialog" id="addCustomerModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="ShowCustomerAdd"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Add Customer</h4>
+            </div>
+            <div class="modal-body">
+                <!--body-->
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" id="name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email" class="form-control" />
+                </div>
+               
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="btnSaveCustomer">Submit</button>
+        </div>
+    </div>
+</div>
+    </div>
+
+<!--Add Movie-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="addMovieModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="btnShowAddMovie"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Add Movie</h4>
+            </div>
+            <div class="modal-body">
+                <!--body-->
+               
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" id="title" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Release Year</label>
+                    <input type="text" id="releaseDate" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>User Rating</label>
+                    <input type="text" id="userRating" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Genre</label>
+                    <input type="text" id="genre" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>MPAA Rating</label>
+                    <input type="text" id="mpaaRating" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Director</label>
+                    <input type="text" id="director" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Actors</label>
+                    <input type="text" id="actors" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Studio</label>
+                    <input type="text" id="studio" class="form-control" />
+                </div>
+                </div>
+                <div class="form-group" style="overflow: scroll; max-height: 100px;">
+                    <label>User Notes</label>
+                    <input type="text" id="userNotes" class="form-control" />
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSsaveMovie">Submit</button>
+            </div>
+        </div>
+    </div>
+
+<!--Edit Modal-->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="viewMovieModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              
+                <h4 class="modal-title">Movie Details |<a href="#" class="deleteLink" data-toggle="modal" data-target="#deleteMovieModal">Delete</a></h4>
+            </div>
+            <div class="modal-body">
+                <!--body-->
+
+                <table class="table-striped">
+                   
+                    <tr>
+                        <th>Title</th>
+                        <th>Release Date</th>
+                        <th>User Rating</th>
+                    </tr>
+                    <tr>
+                        <td id="titleEdit" ></td>
+                        <td id="releaseDateEdit"></td>
+                        <td id="userRatingEdit"></td>
+                    </tr>
+                    <tr>
+                        <th>Id</th>
+                        <th>MPAA Rating</th>
+                        <th>Director</th>
+                    </tr>
+                    <tr>
+                        <td id="idEdit"></td>
+                        <td id="mpaaRatingEdit"></td>
+                        <td id="directorEdit"></td>
+                    </tr>
+                    <tr>
+                        <th>Actors</th>
+                        <th>Studio</th>
+                        <th>Borrower Id</th>
+                    </tr>
+                    <tr>
+                        <td id="actorsEdit"></td>
+                        <td id="studioEdit"></td>
+                        <td id="borrowerIdEdit"></td>
+                    </tr>
+                    <tr>
+                        <th>Genre</th>
+                        <th>Date Borrowed</th>
+                        <th>Date Returned</th>
+                    </tr>
+                    <tr>
+                        <td id="genreEdit"></td>
+                        <td id="dateBorrowedEdit"></td>
+                        <td id="dateReturnedEdit"></td>
+                    </tr>
+                    <tr> 
+                        <th>User Notes</th>
+                    </tr>
+                    <tr style="overflow: scroll; max-height: 100px;">
+                        <td id="userNotesEdit"></td>
+                    </tr>
+                </table>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div class="form-group">
+                            <label>Customer Id</label>
+                            <input type="text" id="borrowerInput" class="form-control" />
+                            <button style="margin-top: 10px;" type="button" class="btn btn-default" id="btnRent">Rent</button>
+                        </div>
+                       
+                    </div>
+                    <div class="col-xs-offset-3 col-xs-3">
+                        <button style="margin-top: 35px;" type="button" class="btn btn-primary" id="btnReturn">Return</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnEditMovie">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Delete Modal-->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="deleteMovieModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+            </div>
+            <div class="modal-body">
+                <!--body-->
+                <p>Are you sure you want to delete <span id="#movieToDelete"></span></p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" id="btnDeleteMovie">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+@section scripts
+{
+   
+}

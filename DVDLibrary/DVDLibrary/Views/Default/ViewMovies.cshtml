@@ -1,0 +1,360 @@
+﻿@model DVDLibrary.Models.MovieVM
+@{
+    ViewBag.Title = "Practice";
+}
+
+
+
+<div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Search Movie Library</h2>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="col-xs-offset-4 col-xs-3">
+        <button type="submit" class="btn btn-primary" id="returnBtn" data-toggle="modal" data-target="#returnModal" style="color: #14D2D5;">Return Movie</button>
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="returnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="returnModalLabel">Return Movie</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                       
+                       
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label>Movie I</label>
+                                @Html.TextBoxFor(m => m.Movie.Id, new {@class = "form-control", id = "returnMovieInput", PlaceHolder = "Search movie by name"})
+                                <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Title)</p>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="submitReturn">Search</button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" id="saveReturn">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+
+@using (Html.BeginForm(new { id = "theForm" }))
+{
+    <div class="row">
+        <div class="col-xs-6">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label>Search for Movie</label>
+                    @Html.TextBoxFor(m => m.Movie.Title, new { @class = "form-control", id = "movieTitle", PlaceHolder = "Search movie by name" })
+                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Id)</p>
+                </div>
+                <button type="submit" class="btn btn-primary" id="inputBtn">Search</button>
+            </form>
+        </div>
+
+        <!--Movie name search display-->
+        <div class="col-xs-6">
+            <div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
+                @foreach (var movie in Model.Movies)
+                {
+                    @* link data-id="123" data-title="@movie.Title" data-director="@movie.Director" data-mpaa="@movie.MPAARating"*@
+                    <div class="panel panel-default gensingle" data-title="@movie.Title">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" id="myModal" data-toggle="collapse" data-parent="#accordian" href="#collapseOne" aria-expanded="true" aria-controls="@movie.Id">
+                                    @movie.Title
+                                </a>
+
+                            </h4>
+                        </div>
+                        <div id="@movie.Id" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th>Release Date</th>
+                                            <th>Director</th>
+                                        </tr>
+                                        <tr>
+                                            <td>@movie.ReleaseDate</td>
+                                            <td>@movie.Director</td>
+                                        </tr>
+                                        <tr>
+                                            <th>MPAA Rating</th>
+                                            <th>Actors</th>
+                                        </tr>
+                                        <tr>
+                                            <td>@movie.Genre</td>
+                                            <td>@movie.Actors</td>
+                                        </tr>
+                                        <tr>
+                                            <th>User Rating</th>
+                                            <th>Studio</th>
+                                        </tr>
+                                        <tr>
+                                            <td>@movie.UserRating</td>
+                                            <td>@movie.Studio</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Date Borrowed</th>
+                                            <th>Date Returned</th>
+                                        </tr>
+                                        <tr>
+                                            <td>@movie.DateBorrowed</td>
+                                            <td>@movie.DateReturned</td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Borrower Id
+                                            </th>
+                                            <th>Movie Id</th>
+                                        </tr>
+                                        <tr>
+                                            <td>@movie.BorrowerId</td>
+                                            <td>@movie.Id</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                                <div><h4>User Notes</h4></div>
+                                <div style="overflow: scroll; height: 100px;">@movie.UserNotes</div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+    <!--Search by category-->
+}
+<div class="row">
+    <div class="col-xs-6">
+        <div class="form-group">
+            <label>Search movie by category.</label>
+            @Html.DropDownListFor(m => m.Movie.Genre, Model.CategoryItems, "-Choose One-", new { @class = "form-control" })
+
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Movies</th>
+                </tr>
+            </thead>
+        </table>
+
+        @foreach (var movie in Model.Movies)
+        {
+            <p class="gen@(movie.Genre) movie"> @movie.Title |<a href="#" data-toggle="modal" data-target="#m@(movie.Id)">View</a>|<a href="#" id="rentLink" class="rentLink" data-toggle="modal" data-target="#myModalCustomer@(movie.Id)" data-id="@(movie.Id)">Rent</a></p>
+
+
+            <!--View Modal -->
+            <div class="modal fade" id="m@(movie.Id)" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">@movie.Title</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Release Date</th>
+                                        <th>Genre</th>
+                                    </tr>
+                                    <tr>
+                                        <td>@movie.ReleaseDate</td>
+                                        <td>@movie.Genre</td>
+                                    </tr>
+                                    <tr>
+                                        <th>MPAA Rating</th>
+                                        <th>Director</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>@movie.MPAARating</td>
+                                        <td>@movie.Director</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Actors</th>
+                                        <th>Studio</th>
+                                    </tr>
+                                    <tr>
+                                        <td>@movie.Actors</td>
+                                        <td>@movie.Studio</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Borrower Id</th>
+                                        <th>User Rating</th>
+                                    </tr>
+                                    <tr>
+                                        <td>@movie.BorrowerId</td>
+                                        <td>@movie.UserRating</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Date Borrowed</th>
+                                        <th>Date Returned</th>
+                                    </tr>
+                                <tr>
+                                    <td>@movie.DateBorrowed</td>
+                                    <td>@movie.DateReturned</td>
+                                </tr>
+                                <tr>
+                                    <th>Movie Id#</th>
+                                </tr>
+                                <tr>
+                                    <td>@movie.Id</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div><h4>User Notes</h4></div>
+                            <div style="overflow: scroll; height: 100px;">@movie.UserNotes</div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!--RENT MODAL-->
+            <div>
+                @using (Html.BeginForm())
+                {
+                <div class="modal fade" id="myModalCustomer@(movie.Id)" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">@movie.Title</h4>
+                            </div>
+                            <div class="modal-body">
+
+                                <div>
+                                    <label>Borrower Id</label>
+                                    @Html.TextBoxFor(m => m.Movie.BorrowerId, new { @class = "form-control", PlaceHolder = "ID#" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.BorrowerId)</p>
+                                </div>
+                                <div>
+                                    <label>Movie Id</label>
+                                    @Html.TextBoxFor(m => m.Movie.Id, new { @class = "form-control", PlaceHolder = "ID#" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Id)</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="rentBtn btn btn-primary" dismiss="modal"data-id="@(movie.Id)" >Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+        }
+
+    </div>
+</div>
+
+<canvas id="buyers" width="600" height="400"></canvas>
+
+@section scripts{
+
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            var buyers = document.getElementById('buyers').getContext('2d');
+            new Chart(buyers).Line(buyerData);
+
+            var buyerData = {
+                labels: ["January", "February", "March", "April", "May", "June"],
+                datasets: [
+                    {
+                        fillColor: "rgba(172,194,132,0.4)",
+                        strokeColor: "#ACC26D",
+                        pointColor: "#fff",
+                        pointStrokeColor: "#9DB86D",
+                        data: [203, 156, 99, 251, 305, 247]
+                    }
+                ]
+            }
+
+            function hideMovieCats() {
+                $(".movie").hide();
+            }
+
+            hideMovieCats();
+            $("select")
+                .change(function() {
+                    hideMovieCats();
+                    var genre = $("select option:selected").val();
+                    $(".gen" + genre).show();
+
+                });
+
+            function hideOne() {
+                $(".gensingle").hide();
+            }
+
+            hideOne();
+            $("#inputBtn")
+                .click(function(evt) {
+                    hideOne();
+                    evt.preventDefault();
+                    var input = $("#movieTitle").val();
+                    var jstring = "[data-title*='" + input.toLowerCase() + "']";
+                    $(jstring).show();
+
+                });
+
+            //$(".rentBtn")
+            //    .on('click',
+            //        function() {
+                       
+            //            var id = $(this).data('id');
+            //            console.log(id);
+
+
+                       
+
+                    //});
+
+            $('#saveReturn')
+                .on('click',
+                    function(e) {
+                        e.preventDefault();
+                        var id = $('#returnMovieInput').val();
+                        console.log(id);
+                           
+                        $.ajax({
+                            url: '/Default/DeleteReturn/' + id,
+                            type: 'POST'
+                        });
+
+                    });
+        });
+
+    </script>
+    }

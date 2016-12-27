@@ -1,0 +1,14 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\obj\Debug\Linq.Exercises.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Customers.xml
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Exercises.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Exercises.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Exercises.dll.CodeAnalysisLog.xml
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Exercises.dll.lastcodeanalysissucceeded
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Data.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Helpers.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Data.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Helpers.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\bin\Debug\Linq.Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\obj\Debug\Linq.Exercises.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Exercises\obj\Debug\Linq.Exercises.pdb

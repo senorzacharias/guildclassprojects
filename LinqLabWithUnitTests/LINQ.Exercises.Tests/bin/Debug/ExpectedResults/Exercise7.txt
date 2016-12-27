@@ -1,0 +1,78 @@
+ID    Product Name                        Category          Unit  Stock ReOrder?
+1     Chai                                Beverages       $18.00     39 False
+2     Chang                               Beverages       $19.00     17 False
+3     Aniseed Syrup                       Condiments      $10.00     13 False
+4     Chef Anton's Cajun Seasoning        Condiments      $22.00     53 False
+5     Chef Anton's Gumbo Mix              Condiments      $21.35      0 True
+6     Grandma's Boysenberry Spread        Condiments      $25.00    120 False
+7     Uncle Bob's Organic Dried Pears     Produce         $30.00     15 False
+8     Northwoods Cranberry Sauce          Condiments      $40.00      6 False
+9     Mishi Kobe Niku                     Meat/Poultry    $97.00     29 False
+10    Ikura                               Seafood         $31.00     31 False
+11    Queso Cabrales                      Dairy Products  $21.00     22 False
+12    Queso Manchego La Pastora           Dairy Products  $38.00     86 False
+13    Konbu                               Seafood          $6.00     24 False
+14    Tofu                                Produce         $23.25     35 False
+15    Genen Shouyu                        Condiments      $15.50     39 False
+16    Pavlova                             Confections     $17.45     29 False
+17    Alice Mutton                        Meat/Poultry    $39.00      0 True
+18    Carnarvon Tigers                    Seafood         $62.50     42 False
+19    Teatime Chocolate Biscuits          Confections      $9.20     25 False
+20    Sir Rodney's Marmalade              Confections     $81.00     40 False
+21    Sir Rodney's Scones                 Confections     $10.00      3 False
+22    Gustaf's Knäckebröd                 Grains/Cereals  $21.00    104 False
+23    Tunnbröd                            Grains/Cereals   $9.00     61 False
+24    Guaraná Fantástica                  Beverages        $4.50     20 False
+25    NuNuCa Nuß-Nougat-Creme             Confections     $14.00     76 False
+26    Gumbär Gummibärchen                 Confections     $31.23     15 False
+27    Schoggi Schokolade                  Confections     $43.90     49 False
+28    Rössle Sauerkraut                   Produce         $45.60     26 False
+29    Thüringer Rostbratwurst             Meat/Poultry    $123.79      0 True
+30    Nord-Ost Matjeshering               Seafood         $25.89     10 False
+31    Gorgonzola Telino                   Dairy Products  $12.50      0 True
+32    Mascarpone Fabioli                  Dairy Products  $32.00      9 False
+33    Geitost                             Dairy Products   $2.50    112 False
+34    Sasquatch Ale                       Beverages       $14.00    111 False
+35    Steeleye Stout                      Beverages       $18.00     20 False
+36    Inlagd Sill                         Seafood         $19.00    112 False
+37    Gravad lax                          Seafood         $26.00     11 False
+38    Côte de Blaye                       Beverages       $263.50     17 False
+39    Chartreuse verte                    Beverages       $18.00     69 False
+40    Boston Crab Meat                    Seafood         $18.40    123 False
+41    Jack's New England Clam Chowder     Seafood          $9.65     85 False
+42    Singaporean Hokkien Fried Mee       Grains/Cereals  $14.00     26 False
+43    Ipoh Coffee                         Beverages       $46.00     17 False
+44    Gula Malacca                        Condiments      $19.45     27 False
+45    Rogede sild                         Seafood          $9.50      5 False
+46    Spegesild                           Seafood         $12.00     95 False
+47    Zaanse koeken                       Confections      $9.50     36 False
+48    Chocolade                           Confections     $12.75     15 False
+49    Maxilaku                            Confections     $20.00     10 False
+50    Valkoinen suklaa                    Confections     $16.25     65 False
+51    Manjimup Dried Apples               Produce         $53.00     20 False
+52    Filo Mix                            Grains/Cereals   $7.00     38 False
+53    Perth Pasties                       Meat/Poultry    $32.80      0 True
+54    Tourtière                           Meat/Poultry     $7.45     21 False
+55    Pâté chinois                        Meat/Poultry    $24.00    115 False
+56    Gnocchi di nonna Alice              Grains/Cereals  $38.00     21 False
+57    Ravioli Angelo                      Grains/Cereals  $19.50     36 False
+58    Escargots de Bourgogne              Seafood         $13.25     62 False
+59    Raclette Courdavault                Dairy Products  $55.00     79 False
+60    Camembert Pierrot                   Dairy Products  $34.00     19 False
+61    Sirop d'érable                      Condiments      $28.50    113 False
+62    Tarte au sucre                      Confections     $49.30     17 False
+63    Vegie-spread                        Condiments      $43.90     24 False
+64    Wimmers gute Semmelknödel           Grains/Cereals  $33.25     22 False
+65    Louisiana Fiery Hot Pepper Sauce    Condiments      $21.05     76 False
+66    Louisiana Hot Spiced Okra           Condiments      $17.00      4 False
+67    Laughing Lumberjack Lager           Beverages       $14.00     52 False
+68    Scottish Longbreads                 Confections     $12.50      6 False
+69    Gudbrandsdalsost                    Dairy Products  $36.00     26 False
+70    Outback Lager                       Beverages       $15.00     15 False
+71    Flotemysost                         Dairy Products  $21.50     26 False
+72    Mozzarella di Giovanni              Dairy Products  $34.80     14 False
+73    Röd Kaviar                          Seafood         $15.00    101 False
+74    Longlife Tofu                       Produce         $10.00      4 False
+75    Rhönbräu Klosterbier                Beverages        $7.75    125 False
+76    Lakkalikööri                        Beverages       $18.00     57 False
+77    Original Frankfurter grüne Soße     Condiments      $13.00     32 False

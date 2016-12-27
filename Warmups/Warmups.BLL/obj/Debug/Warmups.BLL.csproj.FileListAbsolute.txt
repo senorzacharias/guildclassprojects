@@ -1,0 +1,10 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\mpls-dotnet-september-2016-materials\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\mpls-dotnet-september-2016-materials\Warmups\Warmups.BLL\bin\Debug\Warmups.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\mpls-dotnet-september-2016-materials\Warmups\Warmups.BLL\bin\Debug\Warmups.BLL.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\mpls-dotnet-september-2016-materials\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\mpls-dotnet-september-2016-materials\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\Warmups\Warmups.BLL\bin\Debug\Warmups.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\Warmups\Warmups.BLL\bin\Debug\Warmups.BLL.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\Warmups\Warmups.BLL\obj\Debug\Warmups.BLL.pdb

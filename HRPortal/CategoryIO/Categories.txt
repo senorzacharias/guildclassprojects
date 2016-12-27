@@ -1,0 +1,6 @@
+CategoryNumber,CategoryName
+1,Conduct
+2,Benefits
+3,Attendance
+4,Animals
+5,Holidays

@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "LookupMovie";
+}
+<div>
+    <h2>LookupMovie</h2>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Search Movie by Id</label>
+                <input type="text" id="movieId" class="form-control"/>
+            </div>
+            <button class="btn btn-primary" id="btn">Search</button>
+        </form>
+    </div>
+</div>
+<div class="col-xs-6">
+    <div id="pnlMovie" class="hidden">
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnTitle"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnId"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnGenre"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnUserRating"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnMPAARating"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnReleaseDate"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnDirector"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnActors"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnStudio"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnBorrowerId"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnDateBorrowed"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnDateReturned"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <span id="spnUserNotes"></span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section scripts {
+    
+
+    <script type="text/javascript">
+    
+        (function () {
+            console.log("ello");
+            $('#btn')
+                .click(function(evt) {
+                    evt.preventDefault();
+                    var id = $('#movieId').val();
+                    if (isNaN(parseInt(id, 10))) {
+                        return;
+                    }
+
+                    var promise = $.getJSON('/api/home/' + id);
+
+                    promise.done(function(movie) {
+                            $("#spnTitle").text(movie.Title);
+                            $("#spnId").text(movie.Id);
+                            $("#spnGenre").text(movie.Genre);
+                            $("#spnUserRating").text(movie.UserRating);
+                            $("#spnMPAARating").text(movie.MPAARating);
+                            $("#spnReleaseDate").text(movie.ReleaseDate);
+                            $("#spnDirector").text(movie.Director);
+                            $("#spnActors").text(movie.Actors);
+                            $("#spnStudio").text(movie.Studio);
+                            $("#spnBorrowerId").text(movie.BorrowerId);
+                            $("#spnDateBorrowed").text(movie.DateBorrowed);
+                            $("#spnDateReturned").text(movie.DateReturned);
+                            $("#spnUserNotes").text(movie.UserNotes);
+                            $("#pnlMovie").removeClass("hidden");
+                        console.log("second");
+                        })
+                        .fail(function() {
+                            console.log("failed!");
+                            $("#pnlPerson").addClass("hidden");
+                        });
+
+                });
+
+        })();
+    </script>
+}

@@ -1,0 +1,14 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.BLL.Tests.dll.config
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.BLL.Tests.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.BLL.Tests.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.BLL.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.Data.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.BLL.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.Data.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\Flooring.Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\obj\Debug\Flooring.BLL.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\obj\Debug\Flooring.BLL.Tests.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FlooringMastery.CLI\Flooring.BLL.Tests\obj\Debug\Flooring.BLL.Tests.pdb

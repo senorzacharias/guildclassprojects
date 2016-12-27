@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MovieLibrary" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MovieLibraryContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Movies" EntityType="MovieLibrary.Movie" />
+    <EntitySet Name="Customers" EntityType="MovieLibrary.Customer" />
+  </EntityContainer>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" />
+    <Property Name="ReleaseYear" Type="String" Nullable="false" />
+    <Property Name="UserRating" Type="String" Nullable="false" />
+    <Property Name="MpaaRating" Type="String" Nullable="false" />
+    <Property Name="Director" Type="String" Nullable="false" />
+    <Property Name="Actors" Type="String" Nullable="false" />
+    <Property Name="Studio" Type="String" Nullable="false" />
+    <Property Name="BorrowerId" Type="String" Nullable="false" />
+    <Property Name="DateBorrowed" Type="String" Nullable="false" />
+    <Property Name="DateReturned" Type="String" Nullable="false" />
+    <Property Name="UserNotes" Type="String" Nullable="false" />
+    <Property Name="Genre" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

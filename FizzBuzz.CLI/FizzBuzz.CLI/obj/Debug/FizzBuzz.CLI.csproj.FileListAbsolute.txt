@@ -1,0 +1,6 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FizzBuzz.CLI\FizzBuzz.CLI\bin\Debug\FizzBuzz.CLI.exe.config
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FizzBuzz.CLI\FizzBuzz.CLI\bin\Debug\FizzBuzz.CLI.exe
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FizzBuzz.CLI\FizzBuzz.CLI\bin\Debug\FizzBuzz.CLI.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FizzBuzz.CLI\FizzBuzz.CLI\obj\Debug\FizzBuzz.CLI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FizzBuzz.CLI\FizzBuzz.CLI\obj\Debug\FizzBuzz.CLI.exe
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\FizzBuzz.CLI\FizzBuzz.CLI\obj\Debug\FizzBuzz.CLI.pdb

@@ -1,0 +1,7 @@
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\bin\Debug\Linq.Helpers.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\bin\Debug\Linq.Helpers.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\bin\Debug\Linq.Models.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\bin\Debug\Linq.Models.pdb
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\obj\Debug\Linq.Helpers.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\obj\Debug\Linq.Helpers.dll
+C:\Users\apprentice\Desktop\Repos\bitbucket\zach-robinson-individual-work\LinqLabWithUnitTests\LINQ.Helpers\obj\Debug\Linq.Helpers.pdb

@@ -1,0 +1,27 @@
+﻿@model Models.PolicyVM
+@{
+    ViewBag.Title = "DeleteCategoryCont";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>DeletePolicy</h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            @using (Html.BeginForm())
+            {
+                @Html.HiddenFor(d => d.Category.CategoryId)
+                <p>Are you sure that you wish to delete the policy @(Model.Category.CategoryName)?</p>
+                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                @Html.ActionLink("Cancel", "ManageCategories", "Policy", null, new { @class = "btn btn-sm btn-info" })
+            }
+        </div>
+    </div>
+</div>

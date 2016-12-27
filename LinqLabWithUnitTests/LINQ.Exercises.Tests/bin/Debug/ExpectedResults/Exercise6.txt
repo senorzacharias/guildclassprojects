@@ -1,0 +1,78 @@
+Product Name                        Category       
+CHAI                                BEVERAGES      
+CHANG                               BEVERAGES      
+ANISEED SYRUP                       CONDIMENTS     
+CHEF ANTON'S CAJUN SEASONING        CONDIMENTS     
+CHEF ANTON'S GUMBO MIX              CONDIMENTS     
+GRANDMA'S BOYSENBERRY SPREAD        CONDIMENTS     
+UNCLE BOB'S ORGANIC DRIED PEARS     PRODUCE        
+NORTHWOODS CRANBERRY SAUCE          CONDIMENTS     
+MISHI KOBE NIKU                     MEAT/POULTRY   
+IKURA                               SEAFOOD        
+QUESO CABRALES                      DAIRY PRODUCTS 
+QUESO MANCHEGO LA PASTORA           DAIRY PRODUCTS 
+KONBU                               SEAFOOD        
+TOFU                                PRODUCE        
+GENEN SHOUYU                        CONDIMENTS     
+PAVLOVA                             CONFECTIONS    
+ALICE MUTTON                        MEAT/POULTRY   
+CARNARVON TIGERS                    SEAFOOD        
+TEATIME CHOCOLATE BISCUITS          CONFECTIONS    
+SIR RODNEY'S MARMALADE              CONFECTIONS    
+SIR RODNEY'S SCONES                 CONFECTIONS    
+GUSTAF'S KNÄCKEBRÖD                 GRAINS/CEREALS 
+TUNNBRÖD                            GRAINS/CEREALS 
+GUARANÁ FANTÁSTICA                  BEVERAGES      
+NUNUCA NUß-NOUGAT-CREME             CONFECTIONS    
+GUMBÄR GUMMIBÄRCHEN                 CONFECTIONS    
+SCHOGGI SCHOKOLADE                  CONFECTIONS    
+RÖSSLE SAUERKRAUT                   PRODUCE        
+THÜRINGER ROSTBRATWURST             MEAT/POULTRY   
+NORD-OST MATJESHERING               SEAFOOD        
+GORGONZOLA TELINO                   DAIRY PRODUCTS 
+MASCARPONE FABIOLI                  DAIRY PRODUCTS 
+GEITOST                             DAIRY PRODUCTS 
+SASQUATCH ALE                       BEVERAGES      
+STEELEYE STOUT                      BEVERAGES      
+INLAGD SILL                         SEAFOOD        
+GRAVAD LAX                          SEAFOOD        
+CÔTE DE BLAYE                       BEVERAGES      
+CHARTREUSE VERTE                    BEVERAGES      
+BOSTON CRAB MEAT                    SEAFOOD        
+JACK'S NEW ENGLAND CLAM CHOWDER     SEAFOOD        
+SINGAPOREAN HOKKIEN FRIED MEE       GRAINS/CEREALS 
+IPOH COFFEE                         BEVERAGES      
+GULA MALACCA                        CONDIMENTS     
+ROGEDE SILD                         SEAFOOD        
+SPEGESILD                           SEAFOOD        
+ZAANSE KOEKEN                       CONFECTIONS    
+CHOCOLADE                           CONFECTIONS    
+MAXILAKU                            CONFECTIONS    
+VALKOINEN SUKLAA                    CONFECTIONS    
+MANJIMUP DRIED APPLES               PRODUCE        
+FILO MIX                            GRAINS/CEREALS 
+PERTH PASTIES                       MEAT/POULTRY   
+TOURTIÈRE                           MEAT/POULTRY   
+PÂTÉ CHINOIS                        MEAT/POULTRY   
+GNOCCHI DI NONNA ALICE              GRAINS/CEREALS 
+RAVIOLI ANGELO                      GRAINS/CEREALS 
+ESCARGOTS DE BOURGOGNE              SEAFOOD        
+RACLETTE COURDAVAULT                DAIRY PRODUCTS 
+CAMEMBERT PIERROT                   DAIRY PRODUCTS 
+SIROP D'ÉRABLE                      CONDIMENTS     
+TARTE AU SUCRE                      CONFECTIONS    
+VEGIE-SPREAD                        CONDIMENTS     
+WIMMERS GUTE SEMMELKNÖDEL           GRAINS/CEREALS 
+LOUISIANA FIERY HOT PEPPER SAUCE    CONDIMENTS     
+LOUISIANA HOT SPICED OKRA           CONDIMENTS     
+LAUGHING LUMBERJACK LAGER           BEVERAGES      
+SCOTTISH LONGBREADS                 CONFECTIONS    
+GUDBRANDSDALSOST                    DAIRY PRODUCTS 
+OUTBACK LAGER                       BEVERAGES      
+FLOTEMYSOST                         DAIRY PRODUCTS 
+MOZZARELLA DI GIOVANNI              DAIRY PRODUCTS 
+RÖD KAVIAR                          SEAFOOD        
+LONGLIFE TOFU                       PRODUCE        
+RHÖNBRÄU KLOSTERBIER                BEVERAGES      
+LAKKALIKÖÖRI                        BEVERAGES      
+ORIGINAL FRANKFURTER GRÜNE SOßE     CONDIMENTS     

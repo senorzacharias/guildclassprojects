@@ -1,0 +1,65 @@
+﻿@using Models
+@model Models.PolicyVM
+@{
+    ViewBag.Title = "ViewPolicies";
+}
+
+
+
+<div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>View</h2>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6">
+        <div class="form-group">
+            <label>Search policy by category.</label>
+            @Html.DropDownListFor(m => m.Policy.CategoryId, Model.CategoryItems, "-Choose One-", new { @class = "form-control" })
+           
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Policies</th>
+                </tr>
+            </thead>
+            <tbody>
+           
+                @foreach (var policy in Model.Policies)
+                {
+                     <tr>
+                         <td class="cat@(policy.CategoryId) policy">@policy.PolicyName |@Html.ActionLink("View", "ViewOnePolicy", "Policy", new {Id = policy.PolicyNumber}, null)</td>
+
+                     </tr>
+                 }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+
+        $(function() {
+            function hidePolicies() {
+                $(".policy").hide();
+            }
+           
+            hidePolicies();
+            $("select").change(function () {
+                hidePolicies();
+                var categoryId = $("select option:selected").val();
+                $(".cat" + categoryId).show();
+                
+            });
+        })
+
+</script>
+}
+

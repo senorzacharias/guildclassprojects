@@ -1,0 +1,8 @@
+Beverages - 559
+Condiments - 507
+Produce - 100
+Meat/Poultry - 165
+Seafood - 701
+Dairy Products - 393
+Confections - 386
+Grains/Cereals - 308

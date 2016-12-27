@@ -1,0 +1,4 @@
+Company Name                        Order Id        Order Date Order Total
+Lazy K Kountry Store                10545           5/22/97 12:00:00 AM 210.00
+Trail's Head Gourmet Provisioners   10822           1/8/98 12:00:00 AM 237.90
+White Clover Markets                11066           5/1/98 12:00:00 AM 928.75

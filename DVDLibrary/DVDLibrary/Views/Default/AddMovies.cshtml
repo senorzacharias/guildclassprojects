@@ -1,0 +1,75 @@
+﻿@model DVDLibrary.Models.MovieVM
+@{
+    ViewBag.Title = "AddMovies";
+}
+
+
+
+<div class="col-xs-12 col-sm-9">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Add Movie</h3>
+            <div class="row">
+                @Html.ValidationSummary(true)
+                @using (Html.BeginForm(new { id = "theForm" }))
+                {
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">Movie Details</h4>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <label class="control-label">Movie Title</label>
+                                    @Html.TextBoxFor(m => m.Movie.Title, new { @class = "form-control", PlaceHolder = "Bambi" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Title)</p>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Release Date</label>
+                                    @Html.TextBoxFor(m => m.Movie.ReleaseDate, new { @class = "form-control", PlaceHolder = "Twitterpated" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.ReleaseDate)</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Genre</label>
+                                    @Html.DropDownListFor(m => m.Movie.Genre, Model.CategoryItems, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label>MPAA Rating</label>
+                                    @Html.TextBoxFor(m => m.Movie.MPAARating, new { @class = "form-control", PlaceHolder = "PG 13" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.MPAARating)</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Director</label>
+                                    @Html.TextBoxFor(m => m.Movie.Director, new { @class = "form-control", PlaceHolder = "Peter Jackson" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Director)</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Actors</label>
+                                    @Html.TextBoxFor(m => m.Movie.Actors, new { @class = "form-control", PlaceHolder = "Peter Jackson" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Actors)</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Studio</label>
+                                    @Html.TextBoxFor(m => m.Movie.Studio, new { @class = "form-control", PlaceHolder = "Peter Jackson" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.Studio)</p>
+                                </div>
+                                
+                                </div><div class="form-group">
+                                    <label>User Rating</label>
+                                    @Html.TextBoxFor(m => m.Movie.UserRating, new { @class = "form-control", PlaceHolder = "Stars" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.UserRating)</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>User Notes</label>
+                                    @Html.TextAreaFor(m => m.Movie.UserNotes, new { @class = "form-control", PlaceHolder = "Peter Jackson" })
+                                    <p class="help-block">@Html.ValidationMessageFor(m => m.Movie.UserNotes)</p>
+                                </div>
+                                <button class="btn btn-primary">Save</button>
+                            </div>
+                        </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

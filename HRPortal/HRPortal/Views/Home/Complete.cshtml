@@ -1,0 +1,138 @@
+﻿@model Models.ApplicationVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>Complete</title>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <link href="~/Content/bootstrap-flatly.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+<div>
+    <h4>Your application was submitted successfully. Most likely. Thank You.</h4>
+    
+</div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch Application
+    </button>
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Employee Application</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12">
+                               
+                                <div class="row">
+                                    @using (Html.BeginForm())
+                                    {
+                                        <div class="col-xs-12">
+                                            @Html.ValidationSummary(true)
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">Employee Application</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label> Name:</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.ApplicantName, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.ApplicantName)</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label> Email:</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.EmailAddress, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.EmailAddress)</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>Street Number:</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.StreetNumber, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.StreetNumber)</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>Street Name</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.StreetName, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.StreetName)</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>City</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.City, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.City)</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>Zipcode</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.ZipCode, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.ZipCode)</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>Employer</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.Employer, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.Employer)</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>Job Description</label>
+                                                                @Html.TextBoxFor(m => m.Applicant.JobDescription, new {@class = "form-control"})
+                                                                <p class="help-block">@Html.ValidationMessageFor(m => m.Applicant.JobDescription)</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
